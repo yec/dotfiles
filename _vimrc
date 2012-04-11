@@ -302,4 +302,6 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
     source $VIRTUAL_ENV/.vimrc
 endif
 
-set colorcolumn=79
+if exists('+colorcolumn')
+    set colorcolumn=79
+endif
