@@ -64,9 +64,9 @@
 [submodule "_vim/bundle/coffee"]
 	path = _vim/bundle/coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "_vim/bundle/javaScriptLint"]
-	path = _vim/bundle/javaScriptLint
-	url = https://github.com/joestelmach/javaScriptLint.vim.git
+[submodule "_vim/bundle/lint"]
+	path = _vim/bundle/lint
+	url = https://github.com/joestelmach/lint.vim.git
 [submodule "_vim/bundle/jsbeautify"]
 	path = _vim/bundle/jsbeautify
 	url = https://github.com/xer0x/jsbeautify.git
