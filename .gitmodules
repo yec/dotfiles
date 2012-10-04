@@ -73,3 +73,6 @@
 [submodule "_vim/bundle/minibufexpl"]
 	path = _vim/bundle/minibufexpl
 	url = git://github.com/carlosedp/minibufexpl.vim.git
+[submodule "_vim/bundle/vim-haml"]
+	path = _vim/bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git

@@ -115,6 +115,7 @@ map <leader>n :NERDTreeToggle<CR>
 
 " Run command-t file search
 map <leader>f :CommandT<CR>
+map <leader>F :CommandTFlush<CR>
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
@@ -239,7 +240,7 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 else
-    colorscheme torte
+    colorscheme desert
 endif
 
 " Paste from clipboard
