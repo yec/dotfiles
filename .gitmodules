@@ -76,3 +76,6 @@
 [submodule "_vim/bundle/vim-haml"]
 	path = _vim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule "_vim/bundle/nginx"]
+	path = _vim/bundle/nginx
+	url = git@github.com:yec/nginx-vim-syntax.git
