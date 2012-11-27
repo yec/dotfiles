@@ -43,4 +43,4 @@ git submodule foreach --recursive git pull origin master
 
 # setup command-t
 cd _vim/bundle/command-t
-rvm system do rake make
+rvm 1.8.7 do rake make
