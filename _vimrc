@@ -315,3 +315,4 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1 
 
 set pastetoggle=<F2>
+let g:CommandTCancelMap=['<ESC>','<C-c>']
