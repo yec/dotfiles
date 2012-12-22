@@ -114,8 +114,8 @@ imap <C-W> <C-O><C-W>
 map <leader>n :NERDTreeToggle<CR>
 
 " Run command-t file search
-map <leader>f :CommandT<CR>
-map <leader>F :CommandTFlush<CR>
+map <leader>f :CtrlP<CR>
+map <leader>F :CtrlP<CR><F5><Esc>
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
