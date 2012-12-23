@@ -72,7 +72,7 @@
 	url = https://github.com/xer0x/jsbeautify.git
 [submodule "_vim/bundle/minibufexpl"]
 	path = _vim/bundle/minibufexpl
-	url = git@github.com:yec/vim-plugin-minibufexpl.git
+	url = https://github.com/techlivezheng/vim-plugin-minibufexpl.git
 [submodule "_vim/bundle/vim-haml"]
 	path = _vim/bundle/vim-haml
 	url = https://github.com/tpope/vim-haml.git
