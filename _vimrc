@@ -275,6 +275,12 @@ let g:acp_completeoptPreview=1
 autocmd BufNewFile,BufRead *.mako,*.mak,*.jinja2 setlocal ft=html
 autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
+" Drupal
+autocmd BufNewFile,BufRead *.module,*.php,*.inc,*.install setlocal ft=php
+autocmd FileType php setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd BufNewFile,BufRead *.info,*.make setlocal ft=ini
+autocmd FileType ini setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " Python
 "au BufRead *.py compiler nose
 au FileType python set omnifunc=pythoncomplete#Complete
