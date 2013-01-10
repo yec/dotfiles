@@ -252,8 +252,8 @@ map <leader>p "+p
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
 
-nnoremap <leader>bn :bn<CR>
-nnoremap <leader>bp :bp<CR>
+nnoremap <leader>k :bn<CR>
+nnoremap <leader>j :bp<CR>
 
 " hide matches on <leader>space
 nnoremap <leader><space> :nohlsearch<cr>
