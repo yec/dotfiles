@@ -115,6 +115,7 @@ map <leader>n :NERDTreeToggle<CR>
 
 " Run command-t file search
 map <leader>f :CtrlP<CR>
+map <leader>fb :CtrlPBuffer<CR>
 map <leader>F :CtrlP<CR><F5><Esc>
 " Ack searching
 nmap <leader>a <Esc>:Ack!
@@ -250,6 +251,9 @@ map <leader>p "+p
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
+
+nnoremap <leader>bn :bn<CR>
+nnoremap <leader>bp :bp<CR>
 
 " hide matches on <leader>space
 nnoremap <leader><space> :nohlsearch<cr>
