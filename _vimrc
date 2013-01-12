@@ -249,8 +249,6 @@ if has("gui_running")
     " Remove toolbar
     set guioptions-=T
 
-    " Font
-    set guifont=consolas:h11
 else
     colorscheme desert
 endif
