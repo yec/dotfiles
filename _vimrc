@@ -128,6 +128,15 @@ map <leader>j :RopeGotoDefinition<CR>
 
 " Rename whatever the cursor is on (including references to it)
 map <leader>r :RopeRename<CR>
+
+" Fugitive
+map <leader>gs :Gstatus<CR>
+map <leader>gd :Gdiff<CR>
+map <leader>gr :Gread<CR>
+map <leader>gc :Gcommit<CR>
+map <leader>gb :Gblame<CR>
+map <leader>gl :Glog<CR>
+
 " ==========================================================
 " Pathogen - Allows us to organize our vim plugins
 " ==========================================================
