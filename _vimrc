@@ -287,7 +287,7 @@ let g:acp_completeoptPreview=1
 " ============================================================
 " Mako/HTML
 autocmd BufNewFile,BufRead *.mako,*.mak,*.jinja2 setlocal ft=html
-autocmd FileType html,xhtml,xml,css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType html,xhtml,xml,css,scss setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
 " Drupal
 autocmd BufNewFile,BufRead *.profile,*.module,*.php,*.inc,*.install setlocal ft=php
