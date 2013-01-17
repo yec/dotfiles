@@ -39,8 +39,4 @@ else
 fi
 
 git submodule update --init --recursive
-git submodule foreach --recursive git checkout master;git fetch origin;git reset --hard origin/master
-
-# setup command-t
-# cd _vim/bundle/command-t
-# rvm default do rake make
+git submodule foreach --recursive git clean -fd; git fetch origin; git reset --hard origin/master
