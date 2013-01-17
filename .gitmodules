@@ -82,3 +82,6 @@
 [submodule "_vim/bundle/ini"]
 	path = _vim/bundle/ini
 	url = https://github.com/afternoon/ini-syntax-definition.git
+[submodule "_vim/bundle/css"]
+	path = _vim/bundle/css
+	url = git://gist.github.com/762326.git
