@@ -257,7 +257,7 @@ endif
 map <leader>p "+p
 
 " Quit window on <leader>q
-nnoremap <leader>q :q<CR>
+nnoremap <leader>q :q!<CR>
 
 nnoremap <leader>k :bn<CR>
 nnoremap <leader>j :bp<CR>
