@@ -337,3 +337,8 @@ let g:miniBufExplModSelTarget = 1
 
 set pastetoggle=<F2>
 let g:CommandTCancelMap=['<ESC>','<C-c>']
+
+set tags=./tags;/
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+let Tlist_WinWidth = 50
+map <leader>tl :TlistToggle<cr>
