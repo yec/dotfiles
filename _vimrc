@@ -66,6 +66,9 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 " Escape
 inoremap jj <ESC>
 
+" set 256 color
+set t_Co=256
+
 " Seriously, guys. It's not like :W is bound to anything anyway.
 command! W :w
 
@@ -146,6 +149,7 @@ map <leader>r :RopeRename<CR>
 map <leader>gs :Gstatus<CR>
 map <leader>gd :Gdiff<CR>
 map <leader>gr :Gread<CR>
+map <leader>gw :Gwrite<CR>
 map <leader>gc :Gcommit<CR>
 map <leader>gb :Gblame<CR>
 map <leader>gl :Glog<CR>
