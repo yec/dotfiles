@@ -131,6 +131,7 @@ imap <C-W> <C-O><C-W>
 
 " Open NerdTree
 map <leader>n :NERDTreeToggle<CR>
+map <leader>nf :NERDTreeFind<CR>
 
 " Run command-t file search
 map <leader>f :CtrlP<CR>
