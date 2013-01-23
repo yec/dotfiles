@@ -37,6 +37,3 @@ else
         link_file $i
     done
 fi
-
-git submodule update --init --recursive
-git submodule foreach --recursive git clean -fd; git fetch origin; git reset --hard origin/master
