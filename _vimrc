@@ -53,6 +53,19 @@
 set nocompatible              " Don't be compatible with vi
 let mapleader=","             " change the leader to be a comma vs slash
 
+" Use perl compat regexes
+nnoremap / /\v
+vnoremap / /\v
+
+" Reselect pasted text
+nnoremap <leader>v V`]
+
+" Edit vimrc
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+
+" Escape
+inoremap jj <ESC>
+
 " Seriously, guys. It's not like :W is bound to anything anyway.
 command! W :w
 
