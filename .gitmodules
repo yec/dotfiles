@@ -85,3 +85,6 @@
 [submodule "_vim/bundle/indentLine"]
 	path = _vim/bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "_vim/bundle/molokai"]
+	path = _vim/bundle/molokai
+	url = https://github.com/tomasr/molokai.git
