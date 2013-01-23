@@ -69,6 +69,9 @@ inoremap jj <ESC>
 " set 256 color
 set t_Co=256
 
+" no swap files
+set updatecount=0
+
 " Seriously, guys. It's not like :W is bound to anything anyway.
 command! W :w
 
