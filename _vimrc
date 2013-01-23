@@ -267,7 +267,7 @@ if has("gui_running")
     set guioptions-=T
 
 else
-    colorscheme desert
+    colorscheme molokai
 endif
 
 " Paste from clipboard
