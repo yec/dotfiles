@@ -137,7 +137,7 @@ map <leader>nf :NERDTreeFind<CR>
 map <leader>f :CtrlP<CR>
 map <leader>fb :CtrlPBuffer<CR>
 map <leader>F :CtrlP<CR><F5><Esc>
-let g:ctrlp_follow_symlinks = 2
+let g:ctrlp_follow_symlinks=1
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
