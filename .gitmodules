@@ -88,3 +88,6 @@
 [submodule "_vim/bundle/molokai"]
 	path = _vim/bundle/molokai
 	url = https://github.com/tomasr/molokai.git
+[submodule "_vim/bundle/vdebug"]
+	path = _vim/bundle/vdebug
+	url = https://github.com/joonty/vdebug.git
