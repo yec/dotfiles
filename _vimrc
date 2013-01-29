@@ -137,6 +137,7 @@ map <leader>nf :NERDTreeFind<CR>
 map <leader>f :CtrlP<CR>
 map <leader>fb :CtrlPBuffer<CR>
 map <leader>F :CtrlP<CR><F5><Esc>
+let g:ctrlp_follow_symlinks = 2
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
@@ -279,7 +280,10 @@ map <leader>p "+p
 
 " Quit window on <leader>q
 nnoremap <leader>q :q!<CR>
-nnoremap <leader>s :w<CR>
+nnoremap <leader>qq :qa!<CR>
+
+" Save file
+nnoremap <leader>w :w<CR>
 
 nnoremap <leader>k :bn<CR>
 nnoremap <leader>j :bp<CR>
