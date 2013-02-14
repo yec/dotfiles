@@ -321,6 +321,9 @@ autocmd FileType php setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd BufNewFile,BufRead *.info,*.make setlocal ft=ini
 autocmd FileType ini setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
+" Javascript
+autocmd FileType javascript setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " Python
 "au BufRead *.py compiler nose
 au FileType python set omnifunc=pythoncomplete#Complete
@@ -372,3 +375,10 @@ map <leader>tl :TlistToggle<cr>
 " Vdebug
 " ============================================================
 nmap <leader>bw :BreakpointWindow<cr>
+nmap <leader>br :BreakpointRemove *<cr>
+nmap <leader>bc :Breakpoint conditional
+
+" ===========================================================
+" Lynx parse
+" ============================================================
+nmap <leader>l :%!lynx -dump -stdin<cr>
