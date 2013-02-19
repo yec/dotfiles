@@ -94,3 +94,6 @@
 [submodule "_vim/bundle/web-indent"]
 	path = _vim/bundle/web-indent
 	url = https://github.com/lukaszb/vim-web-indent.git
+[submodule "_vim/bundle/syntastic"]
+	path = _vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
