@@ -135,7 +135,7 @@ map <leader>nf :NERDTreeFind<CR>
 
 " Run command-t file search
 map <leader>f :CtrlP<CR>
-map <leader>fb :CtrlPBuffer<CR>
+map ; :CtrlPBuffer<CR>
 map <leader>F :CtrlP<CR><F5><Esc>
 let g:ctrlp_follow_symlinks=1
 " Ack searching
