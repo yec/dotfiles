@@ -55,9 +55,6 @@
 [submodule "_vim/bundle/tlib"]
 	path = _vim/bundle/tlib
 	url = https://github.com/tomtom/tlib_vim.git
-[submodule "_vim/bundle/snippets"]
-	path = _vim/bundle/snippets
-	url = https://github.com/honza/snipmate-snippets.git
 [submodule "_vim/bundle/coffee"]
 	path = _vim/bundle/coffee
 	url = https://github.com/kchmck/vim-coffee-script.git
@@ -85,9 +82,6 @@
 [submodule "_vim/bundle/indentLine"]
 	path = _vim/bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
-[submodule "_vim/bundle/molokai"]
-	path = _vim/bundle/molokai
-	url = https://github.com/tomasr/molokai.git
 [submodule "_vim/bundle/vdebug"]
 	path = _vim/bundle/vdebug
 	url = https://github.com/joonty/vdebug.git
