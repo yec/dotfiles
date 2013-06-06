@@ -137,7 +137,8 @@ map <leader>nf :NERDTreeFind<CR>
 map <leader>f :CtrlP<CR>
 map ; :CtrlPBuffer<CR>
 map <leader>F :CtrlP<CR><F5><Esc>
-let g:ctrlp_follow_symlinks=1
+let g:ctrlp_follow_symlinks=0
+
 " Ack searching
 nmap <leader>a <Esc>:Ack!
 
@@ -188,6 +189,7 @@ set vb t_vb=
 set wildignore+=*.o,*.obj,.git,*.pyc
 set wildignore+=eggs/**
 set wildignore+=*.egg-info/**
+set wildignore+=*.scssc
 
 set grepprg=ack         " replace the default grep program with ack
 
@@ -316,7 +318,7 @@ autocmd BufNewFile,BufRead *.mako,*.mak,*.jinja2 setlocal ft=html
 autocmd FileType html,xhtml,xml,css,scss setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
 " Drupal
-autocmd BufNewFile,BufRead *.profile,*.module,*.php,*.inc,*.install setlocal ft=php
+autocmd BufNewFile,BufRead *.profile,*.module,*.php,*.inc,*.install,*.test setlocal ft=php
 autocmd FileType php setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 autocmd BufNewFile,BufRead *.info,*.make setlocal ft=ini
 autocmd FileType ini setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
@@ -386,4 +388,10 @@ nmap <leader>l :%!lynx -dump -stdin<cr>
 " ===========================================================
 " Mouse
 " ============================================================
-set mouse=a
+map <leader>m :set mouse=a<CR>
+map <leader>mm :set mouse=<CR>
+
+" ===========================================================
+" Syntastic js
+" ============================================================
+"let g:syntastic_javascript_jsl_conf = "~/.jsl.conf"
