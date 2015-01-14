@@ -146,10 +146,10 @@ nmap <leader>a <Esc>:Ack!
 map <leader>g :GundoToggle<CR>
 
 " Jump to the definition of whatever the cursor is on
-map <leader>j :RopeGotoDefinition<CR>
+" map <leader>j :RopeGotoDefinition<CR>
 
 " Rename whatever the cursor is on (including references to it)
-map <leader>r :RopeRename<CR>
+" map <leader>r :RopeRename<CR>
 
 " Fugitive
 map <leader>gs :Gstatus<CR>
